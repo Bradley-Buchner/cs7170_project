@@ -25,9 +25,10 @@ In my analysis, I sought to quantify this hidden regulatory mechanism for the fu
 Overall, this project highlights the importance of embedding biological laws into machine learning models, and moving from a purely data-driven paradigm to one that is more knowledge-driven. Part 1 has implications for biological foundation models, since a model's ability to learn representations that generalize out-of-distribution is closely tied to its ability to learn ones that are biologically faithful. Part 2 points to the importance of designing deep models to allow for biological interpretability, which improves scientific understanding and spurs future analysis. Broadly, my project underscores the need for deep models that are biologically-grounded.
 
 
-### Citation
+### Citations and Links
 Carilli, M., Gorin, G., Choi, Y., Chari, T., & Pachter, L. (2024). Biophysical modeling with variational autoencoders for bimodal, single-cell RNA sequencing data. Nature Methods, 21(8), 1466–1469. https://doi.org/10.1038/s41592-024-02365-9
 
 Lopez, R., Regier, J., Cole, M. B., Jordan, M. I., & Yosef, N. (2018). Deep generative modeling for single-cell transcriptomics. Nature Methods, 15(12), 1053–1058. https://doi.org/10.1038/s41592-018-0229-2
 
+biVI GitHub repository: https://github.com/pachterlab/CGCCP_2023
 
