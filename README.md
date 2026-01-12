@@ -1,4 +1,4 @@
-# Biophysically-grounded AI with biVI
+# Biophysically-grounded AI with *biVI*
 *Bradley Buchner*
 
 This repository contains the scripts and notebooks for my final project in the course CS7170 (AI for Complex Systems Modeling), which centers on an exploratory analysis of biVI: a generative model introduced by [Carilli et al. (2024)](https://www.nature.com/articles/s41592-024-02365-9) as a biophysically-grounded alternative to scVI [(Lopez et al., 2018)](https://www.nature.com/articles/s41592-018-0229-2) for analyzing scRNA-seq data.
