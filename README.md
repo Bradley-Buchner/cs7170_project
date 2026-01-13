@@ -1,7 +1,7 @@
 # Biophysically-grounded AI with *biVI*
 *Bradley Buchner*
 
-This repository contains the scripts and notebooks for my final project in the course CS7170 (*AI for Complex Systems Modeling*), which centers on an exploratory analysis of *biVI*: a generative model introduced by [Carilli et al. (2024)](https://www.nature.com/articles/s41592-024-02365-9) as a biophysically-grounded alternative to *scVI* [(Lopez et al., 2018)](https://www.nature.com/articles/s41592-018-0229-2) for analyzing scRNA-seq data. To run the analysis yourself, open ['bivi_investigation.ipynb'](bivi_investigation.ipynb) and click "Run in Colab" at the top of the file.
+This repository contains the scripts and notebooks for my final project in the course CS7170 (*AI for Complex Systems Modeling*), which centers on an exploratory analysis of *biVI*: a generative model introduced by [Carilli et al. (2024)](https://www.nature.com/articles/s41592-024-02365-9) as a biophysically-grounded alternative to *scVI* [(Lopez et al., 2018)](https://www.nature.com/articles/s41592-018-0229-2) for analyzing scRNA-seq data. To run the analysis yourself, go to ['bivi_investigation.ipynb'](bivi_investigation.ipynb) and click "Run in Colab" at the top of the file.
 
 While traditional VAE models for single-cell data analysis like *scVI* treat nascent ($N$) and mature ($M$) RNA counts as independent measurements, *biVI* leverages the causal link between the two by learning parameters of a joint bivariate distribution representing RNA lifecycle kinetics. By conditioning the number of mature ($M$) RNA on the number of nascent ($N$) RNA in the same cell, *biVI* improves upon *scVI* and ensures the generative process is grounded in known cellular dynamics. 
 
